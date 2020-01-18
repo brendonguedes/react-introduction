@@ -20,7 +20,7 @@ class TechList extends Component {
 
     this.setState({ 
       techs: [...this.state.techs, this.state.newTech],
-      newTech: ''
+      newTech: '',
     })
   }
 
