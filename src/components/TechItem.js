@@ -6,7 +6,7 @@ function TechItem({ tech, onDelete }){
     <li>
          {tech}
          <button onClick={onDelete} type="button">Remover</button>
-       </li>
+    </li>
   );
 }
 
